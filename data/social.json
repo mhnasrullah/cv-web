@@ -1,0 +1,18 @@
+[
+    {
+        "icons" : "email.svg",
+        "link" : "https://google.com/email"
+    },
+    {
+        "icons" : "wa.svg",
+        "link" : "https://google.com/wa"
+    },
+    {
+        "icons" : "ig.svg",
+        "link" : "https://google.com/ig"
+    },
+    {
+        "icons" : "linkedin.svg",
+        "link" : "https://google.com/linkedin"
+    }
+]

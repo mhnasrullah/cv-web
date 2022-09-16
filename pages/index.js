@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../sections/About'
+import Discuss from '../sections/Discuss'
+import Footer from '../sections/Footer'
 import Header from '../sections/Header'
 import Nav from '../sections/Nav'
 import Project from '../sections/Project'
@@ -15,6 +17,8 @@ export default function Home() {
       <About/>
       <Skill/>
       <Project/>
+      <Discuss/>
+      <Footer/>
     </>
   )
 }
