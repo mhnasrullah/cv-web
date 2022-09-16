@@ -20,7 +20,7 @@ export default function Button({type,className,children,style,href}) {
 
     if(type === "anchor"){
         return(
-            <a href={href} target="_blank" className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</a>
+            <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</a>
         )
     }
 }
