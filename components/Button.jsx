@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Button({type,className,children,style,href}) {
+export default function Button({type,className,children,style,href,onClick,textOnly}) {
 
-    let stl;
+    let stl = ' ';
 
     if(style === "solid"){
         stl = "bg-blue border-2 border-blue text-white"
@@ -14,13 +14,19 @@ export default function Button({type,className,children,style,href}) {
 
     if(type === "button"){
         return (
-          <button className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</button>
+          <button onClick={onClick} className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</button>
         )
     }
 
     if(type === "anchor"){
-        return(
-            <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</a>
-        )
+        if(textOnly){
+            return(
+                <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} ${stl}`}>{children}</a>
+            )
+        }else{
+            return(
+                <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</a>
+            )
+        }
     }
 }
