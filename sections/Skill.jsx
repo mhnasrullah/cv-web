@@ -10,6 +10,7 @@ export default function Skill() {
     <section>
         <Box>
             <Heading
+            data-aos="fade-up"
             type={"second"}
             textBlack="My "
             textGreen={"Skill On."}

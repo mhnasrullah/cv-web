@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 export const onScreen = () => {
     if(window.innerWidth <768){
         return "sm"
@@ -14,4 +15,11 @@ export const reverseData = (data) => {
 
 export const getDetailProject = (data = [], id) => {
     return data.filter((e) => (e.id == id))[0];
+}
+
+export const scrollTo = (ref) =>{
+    window.scrollTo({
+        behavior : "smooth",
+        top : ref.current.offsetTop
+    });
 }

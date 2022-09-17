@@ -14,18 +14,18 @@ export default function Button({type,className,children,style,href,onClick,textO
 
     if(type === "button"){
         return (
-          <button onClick={onClick} className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</button>
+          <button onClick={onClick} className={`${className ? className : ' '} relative hover:scale-105 transition-all py-2 px-5 rounded-full ${stl}`}>{children}</button>
         )
     }
 
     if(type === "anchor"){
         if(textOnly){
             return(
-                <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} ${stl}`}>{children}</a>
+                <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} relative hover:scale-105 transition-all ${stl}`}>{children}</a>
             )
         }else{
             return(
-                <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} py-2 px-5 rounded-full ${stl}`}>{children}</a>
+                <a href={href} rel="noopener noreferrer" target="_blank" className={`${className ? className : ' '} py-2 relative px-5 hover:scale-105 transition-all rounded-full ${stl}`}>{children}</a>
             )
         }
     }

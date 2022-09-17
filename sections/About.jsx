@@ -9,6 +9,7 @@ export default function About() {
     <section className='pt-16'>
         <Box>
             <Heading
+            data-aos="fade-up"
             type={"second"}
             textBlack="About "
             textGreen="Me."

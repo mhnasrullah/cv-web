@@ -16,6 +16,7 @@ export default function Discuss() {
         <section className='py-16'>
             <Box>
                 <Heading
+                data-aos="fade-up"
                 center
                 type={"second"}
                 textBlack="Let's "
@@ -25,7 +26,7 @@ export default function Discuss() {
                     {social.map((e,i)=>(
                         <div key={i} className="px-3">
                             <Button type={"anchor"} href={e.link} textOnly>
-                                <img src={`/assets/icons/${e.icons}`} className="h-10"/>
+                                <img src={`/assets/icons/${e.icons}`} className="h-10 hover:scale-110 transition-all"/>
                             </Button>
                         </div>
                     ))}

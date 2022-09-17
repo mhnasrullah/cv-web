@@ -9,7 +9,7 @@ export default function Detail({data,onClose,show}) {
     const story = "Hi! I'm Hasan Nasrullah, an undergradute student of Information Technology in Brawijaya University. I am interesting to learn about web technology and finding something new there. I also interesting on graphic design because I like about art. I like to try new experience to challenging myself to be better"
     const link = "https://www.google.com/techasbdhabusygbadusybuy"
   return (
-    <div className={`${show ? 'fixed inset-0 bg-[#FFFFFF88]' : 'hidden'}`}>
+    <div className={`${show ? 'fixed z-50 inset-0 bg-[#FFFFFF88]' : 'hidden'}`}>
         <Box className={"flex items-center h-screen"}>
             <div className='bg-white w-full rounded-lg shadow-md px-2 md:px-4 pt-12 pb-4 relative'>
                 <div className='max-h-[75vh] overflow-y-auto'>

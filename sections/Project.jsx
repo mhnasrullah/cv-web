@@ -17,7 +17,6 @@ export default function Project() {
     useEffect(()=>{
         setProjects(reverseData(data));
         setDetail(getDetailProject(data,show))
-        console.log(show)
     },[show,data])
     
   return (
@@ -25,6 +24,7 @@ export default function Project() {
     <section className='py-16'>
         <Box>
             <Heading
+            data-aos="fade-up"
             type={"second"}
             textBlack="My "
             textGreen={"Projects."}
@@ -38,7 +38,7 @@ export default function Project() {
                     }else{
                         return (
                             <div key={i} className="md:w-1/2 md:px-2">
-                                <button className={"w-full mb-8"} onClick={()=>{setShow(e.id)}}>
+                                <button className={"w-full mb-8 relative"} onClick={()=>{setShow(e.id)}}>
                                     <Card
                                     onClick={(e)=>{setShow(e)}}
                                     type={"project"}
