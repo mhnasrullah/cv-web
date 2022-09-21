@@ -7,7 +7,6 @@ export const inputVal = createSlice({
     },
     reducers : {
         change : ({val},{payload})=>{
-            console.log(payload)
             val += payload
         }
     }
