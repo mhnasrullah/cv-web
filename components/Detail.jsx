@@ -4,10 +4,7 @@ import Button from './Button';
 import Line from './Line';
 
 export default function Detail({data,onClose,show}) {
-    const {title,img,year} = data
-    const skill = ['fig','rec','nxt'];
-    const story = "Hi! I'm Hasan Nasrullah, an undergradute student of Information Technology in Brawijaya University. I am interesting to learn about web technology and finding something new there. I also interesting on graphic design because I like about art. I like to try new experience to challenging myself to be better"
-    const link = "https://www.google.com/techasbdhabusygbadusybuy"
+    const {title,img,year,tech,story,link} = data;
   return (
     <div className={`${show ? 'fixed z-50 inset-0 bg-[#FFFFFF88]' : 'hidden'}`}>
         <Box className={"flex items-center h-screen"}>
@@ -20,9 +17,11 @@ export default function Detail({data,onClose,show}) {
                             <div>
                                 <h2 className='font-semibold text-xl text-start mb-2'>Technology</h2>
                                 <div className='flex flex-wrap pl-5 gap-5 mt-3'>
-                                    {skill.map((e,i)=>(
-                                        <img src={`/assets/images/${e}.png`} className="h-6" key={i} />
-                                    ))}
+                                    {tech && (
+                                        tech.map((e,i)=>(
+                                            <img src={`/assets/images/${e}.png`} className="h-6" key={i} />
+                                        ))
+                                    )}
                                 </div>
                                 <Line box={false} className="mt-6"/>
                             </div>

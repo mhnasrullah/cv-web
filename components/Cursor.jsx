@@ -1,13 +1,15 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 export default function Cursor() {
     const ref = useRef()
     useEffect(()=>{
+      if(ref.current != null){
         window.addEventListener("mousemove",(e)=>{
             ref.current.style.left = e.clientX+"px";
             ref.current.style.top = e.clientY+"px";
         });
-    })
+      }
+    },[])
   return (
     <div ref={ref} style={{
         transitionDuration : 100,

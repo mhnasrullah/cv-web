@@ -1,18 +1,22 @@
 [
     {
         "icons" : "email.svg",
-        "link" : "https://google.com/email"
+        "link" : "mailto:hnasrul22@gmail.com"
     },
     {
         "icons" : "wa.svg",
-        "link" : "https://google.com/wa"
+        "link" : "https://wa.me/6287884380024"
     },
     {
         "icons" : "ig.svg",
-        "link" : "https://google.com/ig"
+        "link" : "https://www.instagram.com/mhasanasrullah/"
     },
     {
         "icons" : "linkedin.svg",
-        "link" : "https://google.com/linkedin"
+        "link" : "https://www.linkedin.com/in/hasannasrullah/"
+    },
+    {
+        "icons" : "gth.svg",
+        "link" : "https://github.com/mhnasrullah"
     }
 ]

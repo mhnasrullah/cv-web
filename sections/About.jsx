@@ -20,7 +20,7 @@ export default function About() {
             <div className='flex justify-center mt-8'>
                 <Button
                 type={"anchor"}
-                href="google.com"
+                href="https://drive.google.com/file/d/1nuz__8gu18E8BZIvP7eJ0fWLQKHuXSl5/view?usp=sharing"
                 style="solid"
                 >Download Curriculum Vitae</Button>
             </div>

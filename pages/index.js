@@ -13,19 +13,12 @@ import { scrollTo as scr } from '../utils/Func'
 
 export default function Home() {
   const [scrollTo,setScrollTo] = useState(null)
-  const [pos,setPos] = useState({
-    clientX : 0,
-    clientY : 0
-  })
-  const aboutRef = useRef();
-  const projectRef = useRef();
-  const contactRef = useRef();
+  const aboutRef = useRef(null);
+  const projectRef = useRef(null);
+  const contactRef = useRef(null);
+  const topRef = useRef(null);
 
   useEffect(()=>{
-    window.addEventListener("mousemove",(e)=>{
-      setPos({clientX : e.clientX, clientY : e.clientY})
-      console.log()
-    });
 
     if(scrollTo){
       if(scrollTo == "about"){
@@ -34,28 +27,33 @@ export default function Home() {
         scr(projectRef);
       }else if(scrollTo == "contact"){
         scr(contactRef);
+      }else if(scrollTo == "/"){
+        scr(topRef);
       }else{
-        false;
+        return false
       }
     }
   },[scrollTo])
 
+
   return (
     <>
-      <Cursor/>
-      <Nav setScroll={(e)=>{setScrollTo(e)}}/>
-      <Header setScroll={(e)=>{setScrollTo(e)}}/>
-      <div ref={aboutRef}>
-        <About/>
-      </div>
-      <Skill/>
-      <div ref={projectRef}>
-        <Project/>
-      </div>
-      <div ref={contactRef}>
-        <Discuss/>
-      </div>
-      <Footer/>
+        <Cursor/>
+        <Nav setScroll={(e)=>{setScrollTo(e)}}/>
+        <div ref={topRef}>
+          <Header setScroll={(e)=>{setScrollTo(e)}}/>
+        </div>
+        <div ref={aboutRef}>
+          <About/>
+        </div>
+        <Skill/>
+        <div ref={projectRef}>
+          <Project/>
+        </div>
+        <div ref={contactRef}>
+          <Discuss/>
+        </div>
+        <Footer/>
     </>
   )
 }

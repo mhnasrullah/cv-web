@@ -9,10 +9,9 @@ import Tilt from 'react-parallax-tilt'
 export default function Header({setScroll}) {
   return (
     <section
-    className='pt-16'
+    className='pt-16 lg:pt-28'
     >
         <Box className={"md:flex md:items-center"}>
-
             {/* left section */}
             <div className='md:w-1/2'>
               <Heading

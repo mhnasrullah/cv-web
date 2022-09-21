@@ -16,7 +16,8 @@ export default function Project() {
     
     useEffect(()=>{
         setProjects(reverseData(data));
-        setDetail(getDetailProject(data,show))
+        setDetail(getDetailProject(data,show));
+        console.log(detail)
     },[show,data])
     
   return (

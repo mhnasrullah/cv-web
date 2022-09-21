@@ -20,6 +20,6 @@ export const getDetailProject = (data = [], id) => {
 export const scrollTo = (ref) =>{
     window.scrollTo({
         behavior : "smooth",
-        top : ref.current.offsetTop
+        top : ref.current.offsetTop-40
     });
 }
