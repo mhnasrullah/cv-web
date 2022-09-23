@@ -1,38 +1,38 @@
 [
     {
         "id" : 1,
-        "title" : "Portofolio Website",
-        "img" : "https://picsum.photos/300/300?random=1",
-        "year" : 2020,
-        "tech" : ["fig"],
-        "story" : "story",
-        "link" : "https://google.com/testing"
+        "title" : "Ngadireso Village",
+        "img" : "https://i.ibb.co/LCbHmJb/ngadireso-1.jpg",
+        "year" : 2022,
+        "tech" : ["fig","rec","tlw","lav","bts"],
+        "story" : "The website is one of my group program on KKN-T Brawijaya University. My group developed this website for Ngadireso Vlg, Malang. The website developed on 2 weeks with 1 week for observation and design, and 1 week for development. There 2 big sections on this website that develop with different tech stack. First, Front is developed with ReactJs and TailwindCss. Second, Back and Admin developed with Laravel for endpoint and Blade with Boostrap for interface. My task on this project is develop Back and Admin",
+        "link" : "https://ngadireso.com/"
     },
     {
         "id" : 2,
-        "title" : "Ngemil.com",
-        "img" : "https://picsum.photos/300/300?random=2",
-        "year" : 2021,
-        "tech" : ["nxt"],
-        "story" : "story",
-        "link" : "https://google.com/testing"
+        "title" : "Gymstation",
+        "img" : "https://i.ibb.co/T1r8hts/gymstation.png",
+        "year" : 2022,
+        "tech" : ["fig","rec","bts"],
+        "story" : "This website is my first exploration with ReactJS. There are 2 pages on this website. I finish it on 3 days, with 2 days for design and 1 day for development. The website developed with ReactJs with Bootstrap for styling and uploaded on firebase hosting",
+        "link" : "https://gymstation-de9bd.web.app/"
     },
     {
         "id" : 3,
-        "title" : "Cookia.vercel",
-        "img" : "https://picsum.photos/300/300?random=3",
+        "title" : "Raja Brawijaya 2022 V1",
+        "img" : "https://i.ibb.co/58PQdyC/rabrawvone.jpg",
         "year" : 2022,
-        "tech" : ["fig","rec"],
-        "story" : "story",
-        "link" : "https://google.com/testing"
+        "tech" : ["fig","nxt","tlw"],
+        "story" : "This website is first version of Raja Brawijaya 2022 Official Website. Why not use this web? because revision at all. I with one my friend as Front-end Developer make it from design by UIUX Team. Make it aound 2-3 weeks with NextJS and TailwindCSS for styling and consume API from Back-end. Individually, my task is developed page beranda and faq. This website uploaded on Vercel",
+        "link" : "https://frontend-rabraw2022-kappa.vercel.app/"
     },
     {
         "id" : 4,
-        "title" : "Pendowo Anggrek",
-        "img" : "https://picsum.photos/300/300?random=4",
-        "year" : 2021,
-        "tech" : ["rec","nxt"],
-        "story" : "story",
-        "link" : "https://google.com/testing"
+        "title" : "Raja Brawijaya 2022 Official",
+        "img" : "https://i.ibb.co/JpsrNrj/rabrawoff.jpg",
+        "year" : 2022,
+        "tech" : ["fig","nxt","tlw"],
+        "story" : "This website is official version of Raja Brawijaya 2022. This is second version that I and one my friend make it on 1 week, beacuse deadline. The design from UIUX team. Front Stack for this website is NextJS with TailwindJS for styling. My task on this project is develop beranda, peta, and faq. This website officially deployed on rajabrawijaya.ub.ac.id for one period. I make another deploy on Vercel",
+        "link" : "https://frontendv2-rabraw2022.vercel.app/"
     }
 ]

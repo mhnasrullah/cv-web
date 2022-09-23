@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 import Cursor from '../components/Cursor'
 import About from '../sections/About'
