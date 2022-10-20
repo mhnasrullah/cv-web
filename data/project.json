@@ -34,5 +34,14 @@
         "tech" : ["fig","nxt","tlw"],
         "story" : "This website is official version of Raja Brawijaya 2022. This is second version that I and one my friend make it on 1 week, beacuse deadline. The design from UIUX team. Front Stack for this website is NextJS with TailwindJS for styling. My task on this project is develop beranda, peta, and faq. This website officially deployed on rajabrawijaya.ub.ac.id for one period. I make another deploy on Vercel",
         "link" : "https://frontendv2-rabraw2022.vercel.app/"
+    },
+    {
+        "id" : 5,
+        "title" : "DPM FILKOM UB 2022",
+        "img" : "https://i.ibb.co/9qfNjHc/dpmfilkom.jpg",
+        "year" : 2022,
+        "tech" : ["fig","nxt","tlw","lav"],
+        "story" : "This website is official website of DPM FILKOM UB peroid 2022. On this project I'am as a leader that have a task to coordinate team to develop this website. I design this website with figma and build it as a front end developer using NextJS with TailwindCSS for styling and consume API from Backend Developer. This website built by 3 persons, Me as one front end and 2 backend. You can visit it on link below for one period",
+        "link" : "https://dpm.filkom.ub.ac.id/"
     }
 ]
