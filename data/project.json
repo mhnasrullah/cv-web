@@ -43,5 +43,14 @@
         "tech" : ["fig","nxt","tlw","lav"],
         "story" : "This website is official website of DPM FILKOM UB peroid 2022. On this project I'am as a leader that have a task to coordinate team to develop this website. I design this website with figma and build it as a front end developer using NextJS with TailwindCSS for styling and consume API from Backend Developer. This website built by 3 persons, Me as one front end and 2 backend. You can visit it on link below for one period",
         "link" : "https://dpm.filkom.ub.ac.id/"
+    },
+    {
+        "id" : 6,
+        "title" : "Instagram Clone",
+        "img" : "https://i.ibb.co/BKtbdW5/igclone.jpg",
+        "year" : 2022,
+        "tech" : ["nxt","tlw"],
+        "story" : "This website i develop for my exploration about instagram, yea this project i start on 13 October 2022 and i will continue to develop if i have spare time. I hope can develop all of UI fitur on Instagram. I make it with NextJS and TailwindCSS for styling. For all asset, i use FontAwesome for all icons and i collect a beautiful avatar from miniavs",
+        "link" : "https://igclone-three.vercel.app/"
     }
 ]
