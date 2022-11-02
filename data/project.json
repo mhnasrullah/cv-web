@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "title" : "Ngadireso Village",
-        "img" : "https://i.ibb.co/LCbHmJb/ngadireso-1.jpg",
+        "img" : "/projects/ngadireso.jpg",
         "year" : 2022,
         "tech" : ["fig","rec","tlw","lav","bts"],
         "story" : "The website is one of my group program on KKN-T Brawijaya University. My group developed this website for Ngadireso Vlg, Malang. The website developed on 2 weeks with 1 week for observation and design, and 1 week for development. There 2 big sections on this website that develop with different tech stack. First, Front is developed with ReactJs and TailwindCss. Second, Back and Admin developed with Laravel for endpoint and Blade with Boostrap for interface. My task on this project is develop Back and Admin",
@@ -11,7 +11,7 @@
     {
         "id" : 2,
         "title" : "Gymstation",
-        "img" : "https://i.ibb.co/T1r8hts/gymstation.png",
+        "img" : "/projects/gymstation.png",
         "year" : 2022,
         "tech" : ["fig","rec","bts"],
         "story" : "This website is my first exploration with ReactJS. There are 2 pages on this website. I finish it on 3 days, with 2 days for design and 1 day for development. The website developed with ReactJs with Bootstrap for styling and uploaded on firebase hosting",
@@ -20,7 +20,7 @@
     {
         "id" : 3,
         "title" : "Raja Brawijaya 2022 V1",
-        "img" : "https://i.ibb.co/58PQdyC/rabrawvone.jpg",
+        "img" : "/projects/rabrawvone.jpg",
         "year" : 2022,
         "tech" : ["fig","nxt","tlw"],
         "story" : "This website is first version of Raja Brawijaya 2022 Official Website. Why not use this web? because revision at all. I with one my friend as Front-end Developer make it from design by UIUX Team. Make it aound 2-3 weeks with NextJS and TailwindCSS for styling and consume API from Back-end. Individually, my task is developed page beranda and faq. This website uploaded on Vercel",
@@ -29,7 +29,7 @@
     {
         "id" : 4,
         "title" : "Raja Brawijaya 2022 Official",
-        "img" : "https://i.ibb.co/JpsrNrj/rabrawoff.jpg",
+        "img" : "/projects/rabrawoff.jpg",
         "year" : 2022,
         "tech" : ["fig","nxt","tlw"],
         "story" : "This website is official version of Raja Brawijaya 2022. This is second version that I and one my friend make it on 1 week, beacuse deadline. The design from UIUX team. Front Stack for this website is NextJS with TailwindJS for styling. My task on this project is develop beranda, peta, and faq. This website officially deployed on rajabrawijaya.ub.ac.id for one period. I make another deploy on Vercel",
@@ -38,7 +38,7 @@
     {
         "id" : 5,
         "title" : "DPM FILKOM UB 2022",
-        "img" : "https://i.ibb.co/9qfNjHc/dpmfilkom.jpg",
+        "img" : "/projects/dpmfilkom.jpg",
         "year" : 2022,
         "tech" : ["fig","nxt","tlw","lav"],
         "story" : "This website is official website of DPM FILKOM UB peroid 2022. On this project I'am as a leader that have a task to coordinate team to develop this website. I design this website with figma and build it as a front end developer using NextJS with TailwindCSS for styling and consume API from Backend Developer. This website built by 3 persons, Me as one front end and 2 backend. You can visit it on link below for one period",
@@ -47,7 +47,7 @@
     {
         "id" : 6,
         "title" : "Instagram Clone",
-        "img" : "https://i.ibb.co/BKtbdW5/igclone.jpg",
+        "img" : "/projects/igclone.jpg",
         "year" : 2022,
         "tech" : ["nxt","tlw"],
         "story" : "This website i develop for my exploration about instagram, yea this project i start on 13 October 2022 and i will continue to develop if i have spare time. I hope can develop all of UI fitur on Instagram. I make it with NextJS and TailwindCSS for styling. For all asset, i use FontAwesome for all icons and i collect a beautiful avatar from miniavs",
