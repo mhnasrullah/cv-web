@@ -52,5 +52,14 @@
         "tech" : ["nxt","tlw"],
         "story" : "This website i develop for my exploration about instagram, yea this project i start on 13 October 2022 and i will continue to develop if i have spare time. I hope can develop all of UI fitur on Instagram. I make it with NextJS and TailwindCSS for styling. For all asset, i use FontAwesome for all icons and i collect a beautiful avatar from miniavs",
         "link" : "https://igclone-three.vercel.app/"
+    },
+    {
+        "id" : 7,
+        "title" : "Makaryo",
+        "img" : "/projects/makaryo.jpg",
+        "year" : 2023,
+        "tech" : ["rec","ts","tlw"],
+        "story" : "This website i develop from design by repositorybox (instagram.com/repositorybox). this beautiful design i develop with typescript reactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 2 days i am developing this website",
+        "link" : "https://makaryo.vercel.app/"
     }
 ]
