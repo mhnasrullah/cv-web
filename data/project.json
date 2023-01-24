@@ -61,5 +61,14 @@
         "tech" : ["rec","ts","tlw"],
         "story" : "This website i develop from design by repositorybox (instagram.com/repositorybox). this beautiful design i develop with typescript reactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 2 days i am developing this website",
         "link" : "https://makaryo.vercel.app/"
+    },
+    {
+        "id" : 8,
+        "title" : "Pentagon NFT",
+        "img" : "/projects/pentagon.png",
+        "year" : 2023,
+        "tech" : ["rec","ts","tlw"],
+        "story" : "This website i develop from design by @nuhptr (instagram.com/nuhptr). it's Awesome design that i develop with typescript reactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 3 days i am developing this website. On the last, i deploy it on netlify",
+        "link" : "https://pentagon-nft.netlify.app/"
     }
 ]
