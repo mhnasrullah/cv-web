@@ -59,7 +59,7 @@
         "img" : "/projects/makaryo.jpg",
         "year" : 2023,
         "tech" : ["rec","ts","tlw"],
-        "story" : "This website i develop from design by repositorybox (instagram.com/repositorybox). this beautiful design i develop with typescript reactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 2 days i am developing this website",
+        "story" : "This website i develop from design by repositorybox (instagram.com/repositorybox). this beautiful design i develop with typescript ReactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 2 days i am developing this website",
         "link" : "https://makaryo.vercel.app/"
     },
     {
@@ -68,7 +68,16 @@
         "img" : "/projects/pentagon.png",
         "year" : 2023,
         "tech" : ["rec","ts","tlw"],
-        "story" : "This website i develop from design by @nuhptr (instagram.com/nuhptr). it's Awesome design that i develop with typescript reactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 3 days i am developing this website. On the last, i deploy it on netlify",
+        "story" : "This website i develop from design by @nuhptr (instagram.com/nuhptr). it's Awesome design that i develop with typescript ReactJS and build with vite. For styling i use tailwindCSS and Framer for motion graphic. Almost 3 days i am developing this website. On the last, i deploy it on netlify",
         "link" : "https://pentagon-nft.netlify.app/"
+    },
+    {
+        "id" : 9,
+        "title" : "Lavina",
+        "img" : "/projects/lavina.jpg",
+        "year" : 2023,
+        "tech" : ["vue","ts","tlw"],
+        "story" : "Thankful for the awesome design by @tepbadrol_ (instagram.com/tepbadrol_). I develop it with typescript VueJS. For styling i use tailwindCSS. Around 3 days i spend my time to develop it, but i enjoy with it. You can access it on netlify",
+        "link" : "https://lavina.netlify.app/"
     }
 ]
