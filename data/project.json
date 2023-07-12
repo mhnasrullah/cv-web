@@ -79,5 +79,14 @@
         "tech" : ["vue","ts","tlw"],
         "story" : "Thankful for the awesome design by @tepbadrol_ (instagram.com/tepbadrol_). I develop it with typescript VueJS. For styling i use tailwindCSS. Around 3 days i spend my time to develop it, but i enjoy with it. You can access it on netlify",
         "link" : "https://lavina.netlify.app/"
+    },
+    {
+        "id" : 10,
+        "title" : "Dafbin",
+        "img" : "/projects/dafbin.png",
+        "year" : 2023,
+        "tech" : ["tlw","nuxt"],
+        "story" : "During the internship, I built a product system about Business Intelligent like metabase. The development lifecycle uses scrum with Product owner and scrum master for product progress report and there are 4 sprint. Tech stack that we use for front end is VueJS with NuxtJS and TailwindCSS",
+        "link" : "https://dafbinikiki.netlify.app/"
     }
 ]

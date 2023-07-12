@@ -4,7 +4,7 @@ import Heading from '../components/Heading'
 import Line from '../components/Line';
 
 export default function Skill() {
-    const skill = ['fig','rec','vue','nxt','tlw','ts'];
+    const skill = ['fig','rec','vue','nxt','tlw','ts','nuxt'];
 
   return (
     <section>
